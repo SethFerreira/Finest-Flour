@@ -194,3 +194,50 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e4b251;
 }
+
+/* ------------------------------------------------- */
+/* FEATURES */
+/* ------------------------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------------- */
+/* PASTRIES */
+/* ------------------------------------------------- */
+
+.section-pastries {
+    padding: 0;
+}
+
+.pastries-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.pastries-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.pastry-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.pastry-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.pastry-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
